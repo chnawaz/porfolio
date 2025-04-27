@@ -11,7 +11,7 @@ export default function Footer() {
     <>
       <hr />
       <footer>
-        <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-10">
+        <div className="max-w-screen-2xl  container mx-auto px-4 md:px-20 py-10 bg-white">
           <div className="flex flex-col items-center justify-center gap-4">
             <div>
               <ul className="flex space-x-5">
@@ -53,7 +53,7 @@ export default function Footer() {
                 {" "}
                 M.Nawaz
               </span>{" "}
-              Industries Ltd
+              
             </p>
           </div>
         </div>

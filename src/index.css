@@ -76,5 +76,7 @@ button:focus-visible {
 
 body{
   font-family: "Poppins", sans-serif;
+  background-color: white;
+  
   /* font-weight: 500; */
 }

@@ -29,7 +29,7 @@ export default function Home() {
               {/* <span className="text-red-800 font-bold">Developer</span> */}
               <ReactTyped
                 className="text-red-800 font-bold"
-                strings={["Developer", "MERN Developer", "Programmer", "Coder"]}
+                strings={["Developer", "MERN Dev", "Programmer", "Coder"]}
                 typeSpeed={50}
                 backSpeed={50}
                 loop={true}

@@ -54,12 +54,12 @@ export default function Contact() {
         <br />
 
         <span>Or fill out the form below to contact me</span>
-        <div className="flex flex-col items-center justify-center my-5">
+        <div className="flex flex-col items-center justify-center my-5 ">
           <form
             onSubmit={handleSubmit(onSubmit)}
             // action="https://getform.io/f/azywjjnb"
             // method="POST"
-            className="bg-slate-200 w-96 px-8 py-6 rounded-2xl "
+            className="bg-slate-200 sm:w-2xl  md:w-96 px-8 py-6 rounded-2xl "
           >
             <h1 className="text-xl font-semibold mb-4 text-gray-800">
               Send Your Message

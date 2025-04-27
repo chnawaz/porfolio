@@ -35,13 +35,13 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md h-16 fixed top-0 right-0 left-0 z-50 bg-slate-200">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md h-16 fixed top-0 right-0 left-0 z-50 bg-white">
         <div className="flex justify-between items-center h-16">
           <div className="flex space-x-2">
             <img className="h-12 w-12 rounded-full" src={pic} alt="" />
-            <h1 className="font-semibold text-xl cursor-pointer text-gray-900">
+            <h1 className="font-semibold text-xl cursor-pointer ">
               M.<span className="text-green-800">NAWAZ</span>
-              <p className="text-sm text-gray-900">Full-Stack Developer</p>
+              <p className="text-sm ">Full-Stack Developer</p>
             </h1>
           </div>
           <div>
