@@ -59,7 +59,7 @@ export default function Contact() {
             onSubmit={handleSubmit(onSubmit)}
             // action="https://getform.io/f/azywjjnb"
             // method="POST"
-            className="bg-slate-200 sm:w-l  md:w-96 px-8 py-6 rounded-2xl "
+            className="bg-slate-200 sm:w-10/12  md:w-96 px-8 py-6 rounded-2xl "
           >
             <h1 className="text-xl font-semibold mb-4 text-gray-800">
               Send Your Message
