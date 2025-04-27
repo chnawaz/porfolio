@@ -31,7 +31,7 @@ export default function Contact() {
     <>
       <div
         name="Contact"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
+        className="max-w-screen-2xl container sm:px-10  md:px-20 my-20"
       >
         <h1 className="font-bold text-3xl mb-2">Contact me</h1>
         <div>
@@ -54,12 +54,12 @@ export default function Contact() {
         <br />
 
         <span>Or fill out the form below to contact me</span>
-        <div className="flex flex-col items-center justify-center my-5 ">
+        <div className="flex flex-col items-center justify-center my-5 w-sm m-auto ">
           <form
             onSubmit={handleSubmit(onSubmit)}
             // action="https://getform.io/f/azywjjnb"
             // method="POST"
-            className="bg-slate-200 sm:w-10/12  md:w-96 px-8 py-6 rounded-2xl "
+            className="bg-slate-200 sm:w-2xl  md:w-96 px-8 py-6 rounded-2xl "
           >
             <h1 className="text-xl font-semibold mb-4 text-gray-800">
               Send Your Message
