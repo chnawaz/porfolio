@@ -1,7 +1,8 @@
 import React from "react";
 
-import wa from "../../public/wp.png"
-import ba from "../../public/ba.png"
+import wa from "../../public/wp.png";
+import ba from "../../public/ba.png";
+import wl from "../../public/wl.png";
 
 export default function Portfolio() {
   return (
@@ -16,64 +17,43 @@ export default function Portfolio() {
           <div className="flex  flex-col  flex-wrap  md:flex-row m-auto  gap-4.5 ">
             <div className="card bg-base-100 md:w-96  shadow-sm m-auto my-3 sm:w-2xl">
               <figure>
-                <img
-                  src={wa}
-                  alt="Weather App"
-                />
+                <img src={wa} alt="Weather App" />
               </figure>
               <div className="card-body bg-white">
                 <h2 className="card-title">Basic Weather App</h2>
-                <p>
-                  Basic Weather app build by use of React and Material UI. 
-                </p>
-                <div className="card-actions justify-end">
-
-                  <a href="https://github.com/chnawaz/weather_app" target="blank">
-                  <button className="btn btn-primary" >view code</button>
-                  </a>
-
-                </div>
+                <p>Basic Weather app build by use of React and Material UI.</p>
+                <div className="card-actions justify-end"></div>
               </div>
             </div>
             {/* next */}
             <div className="card sm:w-2xl md:w-96 shadow-sm m-auto my-3  bg-white">
               <figure>
-                <img
-                  src={ba}
-                  alt="Shoes"
-                />
+                <img src={ba} alt="Shoes" />
               </figure>
               <div className="card-body md:mt-44 bg-white">
                 <h2 className="card-title ">Books Store App</h2>
                 <p className="">
-                  A Books Store app build by using MERN stack.MongoDB use for Data, Node and Express for backend and frontend build by use of React.Js and Tailwind CSS
+                  A Books Store app build by using MERN stack.MongoDB use for
+                  Data, Node and Express for backend and frontend build by use
+                  of React.Js and Tailwind CSS
                 </p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">view code</button>
-                </div>
               </div>
             </div>
             {/* next */}
             <div className="card bg-white sm:w-2xl md:w-96 shadow-sm m-auto my-3">
               <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Shoes"
-                />
+                <img src={wl} alt="Shoes" />z
               </figure>
-              <div className="card-body md:mt-32">
+              <div className="card-body  md:mt-44">
                 <h2 className="card-title">wander Lust</h2>
                 <p>
-                  Wander Lust is colone of AirBnB. it is build with EJS templates , Bootstrap , Node Js ,Express Js  and MongoDB.
+                  Wander Lust is colone of AirBnB. it is build with EJS
+                  templates , Bootstrap , Node Js ,Express Js and MongoDB.
                 </p>
-                <div className="card-actions justify-end">
-                  <button className="btn btn-primary">view code</button>
-                </div>
               </div>
             </div>
 
             {/* next */}
-            
 
             {/* end */}
           </div>

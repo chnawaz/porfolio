@@ -37,12 +37,12 @@ export default function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify tracking-wide  ">
-              MERN Stack Developer with 1 years of experience in developing, and
-              deploying full-stack web applications. Proficient in building
-              scalable solutions using MongoDB, Express.js, React.js, and
-              Node.js, with a strong focus on creating dynamic and user-friendly
-              interfaces alongside robust backend systems. Experienced Developer
-              with an internship at the{" "}
+              MERN Stack Developer with experience in developing, and deploying
+              full-stack web applications. Proficient in building scalable
+              solutions using MongoDB, Express.js, React.js, and Node.js, with a
+              strong focus on creating dynamic and user-friendly interfaces
+              alongside robust backend systems. Experienced Developer with an
+              internship at the{" "}
               <span className="text-blue-900 font-bold text-xl">
                 {" "}
                 Pakistan Bureau of Statistics{" "}
@@ -74,11 +74,8 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      href="mailto:chnawaz2139@gmail.com"
-                      target="blank"
-                    >
-                      <ImMail  className="text-2xl cursor-pointer hover:scale-125 duration-200 text-red-800 size-7.5" />
+                    <a href="mailto:chnawaz2139@gmail.com" target="blank">
+                      <ImMail className="text-2xl cursor-pointer hover:scale-125 duration-200 text-red-800 size-7.5" />
                     </a>
                   </li>
                 </ul>

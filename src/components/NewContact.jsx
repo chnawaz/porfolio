@@ -6,6 +6,9 @@ import toast from "react-hot-toast";
 import { FaSquareWhatsapp } from "react-icons/fa6";
 import { ImMail } from "react-icons/im";
 
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 export default function NewContact() {
   const { register, handleSubmit } = useForm();
 
@@ -31,27 +34,40 @@ export default function NewContact() {
       >
         <h1 className="font-bold text-3xl mb-2">Contact me</h1>
         <div>
-          <span className=" tracking-wide">
-            Whatsapp{" "}
-            <a href="https://wa.me/923094094806" target="blank">
-              <FaSquareWhatsapp className="text-2xl inline cursor-pointer hover:sczale-125 duration-200 text-green-800 size-5 mx-2" />
-            </a>
-            :+923094094806
-          </span>
-          <br />
-          <span className=" tracking-wide">
-            Gmail{" "}
-            <a href="mailto:chnawaz2139@gmail.com" target="blank">
-              <ImMail className="text-2xl inline cursor-pointer hover:scale-125 duration-200 text-red-800 size-5 mx-2" />
-            </a>
-            :chnawaz2139@gmail.com
-          </span>
+          <div className=" space-y-2">
+            <h1 className="font-bold">Available on</h1>
+            <ul className="flex space-x-5">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/muhammad-nawaz-6b5296271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="blank"
+                >
+                  <FaLinkedin className="text-2xl cursor-pointer hover:scale-125 duration-200 text-blue-800 size-8" />
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/chnawaz" target="blank">
+                  <FaGithubSquare className="text-2xl hover:scale-125 duration-200 cursor-pointer size-8" />
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/923094094806" target="blank">
+                  <FaSquareWhatsapp className="text-2xl cursor-pointer hover:scale-125 duration-200 text-green-800 size-8" />
+                </a>
+              </li>
+              <li>
+                <a href="mailto:chnawaz2139@gmail.com" target="blank">
+                  <ImMail className="text-2xl cursor-pointer hover:scale-125 duration-200 text-red-800 size-7.5" />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
         <br />
 
-        <span>Or fill out the form below to contact me</span>
+        <span>Or fill out the form to contact me</span>
 
-        <div className="mt-8 border flex justify-center items-center">
+        <div className="mt-8  flex justify-center items-center">
           <form onSubmit={handleSubmit(onSubmit)}>
             <h1 className="text-xl font-semibold  text-gray-800">
               Send Your Message
