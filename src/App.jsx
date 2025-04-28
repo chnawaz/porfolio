@@ -7,6 +7,7 @@ import Experiance from "./components/Experiance";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
+import NewContact from "./components/NewContact";
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
         <About />
         <Portfolio />
         <Experiance />
-        <Contact />
+        {/* <Contact /> */}
+        <NewContact />
         <Footer />
       </div>
       <Toaster />
