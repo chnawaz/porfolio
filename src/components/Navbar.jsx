@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import { IoCloseSharp } from "react-icons/io5";
 
 import { Link } from "react-scroll";
-import Cv from "../../public/cv/Nawaz_s_resume.pdf";
+import Cv from "../../public/cv/Nawaz's-Resume.pdf";
 
 import { RiDownloadLine } from "react-icons/ri";
 
